@@ -1,0 +1,21 @@
+{
+  "name": "biller",
+  "version": "1.0.0",
+  "description": "A simple bill management app",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Aaron Pena",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
